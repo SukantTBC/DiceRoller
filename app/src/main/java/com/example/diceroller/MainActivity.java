@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         rollButton.setOnClickListener(
                 view -> {
-                    Toast DiceRollToast = Toast.makeText(MainActivity.this, "Dice Rolling...", Toast.LENGTH_SHORT);
+                    Toast DiceRollToast = Toast.makeText(MainActivity.this, "Dice Rolled!", Toast.LENGTH_SHORT);
                     DiceRollToast.show();
                     int number = new Random().nextInt(6);
                     number+=1;
